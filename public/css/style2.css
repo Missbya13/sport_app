@@ -1,0 +1,71 @@
+/* styles.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center; /* Center the titles */
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    font-weight: bold;
+    background-color: #f7f7f7;
+}
+
+/* Styles for "Supprimer pour moi" and "Supprimer pour tout le monde" buttons */
+.btn-delete-for-me,
+.btn-delete-for-all {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn-delete-for-me {
+    background-color: #007bff; /* Blue color for "Supprimer pour moi" button */
+}
+
+.btn-delete-for-all {
+    background-color: #dc3545; /* Red color for "Supprimer pour tout le monde" button */
+}
+
+.delete-message-form {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* No messages text */
+.no-messages {
+    text-align: center;
+    font-weight: bold;
+    color: #888;
+    margin-top: 40px;
+}
+
+/* Style pour le bouton "Éditer" */
+.btn-edit-message{
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    color: #000;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #ffc107; /* Yellow color for "Éditer" button */
+}
